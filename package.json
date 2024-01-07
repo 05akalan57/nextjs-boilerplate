@@ -1,0 +1,46 @@
+{
+  "name": "nextjs-boilerplate",
+  "version": "0.1.0",
+  "author": "Muhammet Emin Akalan",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier -w .",
+    "lint": "next lint",
+    "lint:fix": "eslint src --fix",
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@radix-ui/react-separator": "^1.0.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "geist": "^1.2.0",
+    "lucide-react": "^0.307.0",
+    "next": "^14.0.4",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "@types/react": "18.2.47",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "postcss": "^8.4.33",
+    "prettier": "^3.1.1",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "tsc-files": "^1.1.4",
+    "typescript": "^5.3.3"
+  }
+}
